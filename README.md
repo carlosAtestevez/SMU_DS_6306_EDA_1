@@ -101,6 +101,11 @@ We will implement different methods for IBU and ABV
 * IBU: Replace missing values using KnnImputation method
 
 
+## Additional information using ChatGPT
+At the end of the PPT document we have included several slides
+that show the response of ChatGPT about the analysis and 
+recommendations we have given to Budweiser.
+
 ## Codebook
 
 The codebook is a CSV file. You will find the most important variables
