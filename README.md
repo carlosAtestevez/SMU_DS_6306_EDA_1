@@ -17,6 +17,7 @@ This analysis will be presented to the Budweiser corporation. We will analyze an
 * <strong>Markdown file</strong>: EDA_Beers_Breweries_USA.RMD
 * <strong>CSS format</strong>: bootstrap.csv(Part of the Markdown)
 * <strong>Presentation</strong>: Presentation_Beers_Breweries_USA.ppt
+* <strong>Knitt file</strong>: EDA_Beers_Breweries_USA.html
 
 ## Datasets
 * Beers: In this dataset we have information about the beers including
