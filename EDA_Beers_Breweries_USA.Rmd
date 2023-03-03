@@ -36,7 +36,6 @@ library(ggthemes)
 library(GGally)
 library(class)
 library(e1071)
-library(stringr)
 library(maps)
 library(usmap)
 ```
@@ -395,7 +394,7 @@ Relationship between IBU and ABV
 <h3><strong>Analysis of IPA and ALE beers in terms of IBU and ABV</strong></h3>
 <p>When it comes down to it, a Pale Ale should have a nice hop character but medium build, whereas IPAs tend to have higher ABV and IBU.</p>
 
-```{r RelationshipIBUABV, warning=FALSE,message=FALSE}
+```{r RelationshipIBUABVKnn, warning=FALSE,message=FALSE}
 
 #We plot the relationship between IBU and ABV by Beer Type
 df_beerbre_unp_1 %>% ggplot(aes(x=ABV,y=IBU,color=Type))+geom_point()+
