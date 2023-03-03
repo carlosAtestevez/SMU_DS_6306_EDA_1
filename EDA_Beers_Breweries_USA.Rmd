@@ -54,14 +54,14 @@ library(usmap)
 ```{r ReadingSourceFiles, warning=FALSE,message=FALSE}
 
 ##Setting the working directory
-setwd("C:/Users/cestevez/Dropbox/Cloud PC/Thinkpad/Thinkpad Desktop/Master Data Science SMU/Class_Sessions/Data Science Sessions/Repository/SMU_MSDS_6306")
+setwd("C:/Users/cestevez/Dropbox/Cloud PC/Thinkpad/Thinkpad Desktop/Master Data Science SMU/Class_Sessions/Data Science Sessions/Repository/SMU_DS_6306_EDA_1")
 
 
 #Reading the Beers dataset
-df_beers = read.csv("Project_EDA_1/Beers.csv",header = TRUE)
+df_beers = read.csv("Beers.csv",header = TRUE)
 #Reading the brewery dataset
-df_breweries_1 = read.csv("Project_EDA_1/Breweries.csv",header = TRUE)
-df_states = read.csv("Project_EDA_1/States.csv",header=TRUE)
+df_breweries_1 = read.csv("Breweries.csv",header = TRUE)
+df_states = read.csv("States.csv",header=TRUE)
 df_breweries_1$State = str_trim(df_breweries_1$State)
 df_breweries_2 = merge(df_breweries_1,df_states,by = "State")
 
