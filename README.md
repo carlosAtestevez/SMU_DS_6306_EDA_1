@@ -1,6 +1,7 @@
 EDA Analysis Beer and Breweries Budweiser
 ================
 Carlos Estevez
+SMU University
 2023-03-03
 
 ## Introduction
@@ -11,13 +12,32 @@ This analysis will be presented to the Budweiser corporation. We will analyze an
 
 ## Content of the project
 
-* Datasets: Beers.csv, Breweries.csv and States.csv
-* Codebook: codebook.csv
-* Markdown file: EDA_Beers_Breweries_USA.RMD
-* CSS format: bootstrap.csv(Part of the Markdown)
-* Presentation: Presentation_Beers_Breweries_USA.ppt
+* <strong>Datasets</strong>: Beers.csv, Breweries.csv and States.csv
+* <strong>Codebook</strong>: codebook.csv
+* <strong>Markdown file</strong>: EDA_Beers_Breweries_USA.RMD
+* <strong>CSS format</strong>: bootstrap.csv(Part of the Markdown)
+* <strong>Presentation</strong>: Presentation_Beers_Breweries_USA.ppt
 
+## Datasets
+* Beers: In this dataset we have information about the beers including
+Beer id, IBU, ABV, Style and the brewery ID
+* Breweries: Information about the breweries accross the United Staes
 
+## Glosary
+* ABV: ABV stands for alcohol by volume 
+* IBU: IBU stands for international bitterness unit 
+* Pale and IPA
+Pale ale and IPA (historically called India Pale Ale) are two of the most well-known beer styles
+Generally speaking, the main differences between pale ale and IPA is that IPAs will have bigger hop flavors and slightly higher ABV 
+
+## Convention
+
+* Name of variables
+  + Global DataFrame: df_(Description)
+  + Local DataFrame: dfl_(Description)
+  + Numeric variable: nr_(Description)
+  + String variable: st_(Description)
+  + Model: Name of the model_(Description)
 
 ## Steps to run the analysis(RMD file)
 
@@ -32,6 +52,8 @@ This analysis will be presented to the Budweiser corporation. We will analyze an
 * e1071
 * maps
 * usmap
+
+You can use install.packages("library")
 
 ### Dowload the CSV source file and update local path
 
@@ -82,6 +104,11 @@ We will implement different methods for IBU and ABV
 
 The codebook is a CSV file. You will find the most important variables
 that we use in the analysis.
+
+# Contacts
+
+* cestevez@smu.com
+* haitiel@mail.smu.edu
 
 
 
